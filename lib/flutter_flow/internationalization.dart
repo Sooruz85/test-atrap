@@ -158,6 +158,14 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'fr': ' Enregistre toi',
       'en': 'Sign In',
     },
+    '6lgza26z': {
+      'fr': 'FlutterFlow',
+      'en': '',
+    },
+    'zz48dhfe': {
+      'fr': ' - Build Different',
+      'en': '',
+    },
     'w9qeahip': {
       'fr': 'Home',
       'en': '',
@@ -185,6 +193,18 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'fr': 'Password',
       'en': '',
     },
+    'qcqdiw80': {
+      'fr': 'C\'est parti',
+      'en': 'Get Started',
+    },
+    'rbioj0le': {
+      'fr': 'FlutterFlow',
+      'en': '',
+    },
+    'khqfzf79': {
+      'fr': ' - connecte toi',
+      'en': '',
+    },
     'ytg73jzm': {
       'fr': 'Champ requis',
       'en': 'Required field',
@@ -200,10 +220,6 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
     'mj21uu5v': {
       'fr': 'Please choose an option from the dropdown',
       'en': '',
-    },
-    'qcqdiw80': {
-      'fr': 'C\'est parti',
-      'en': 'Get Started',
     },
     'y4oqw8ph': {
       'fr': 'Home',

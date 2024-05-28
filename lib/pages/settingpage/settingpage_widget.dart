@@ -3,6 +3,8 @@ import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:provider/provider.dart';
 import 'settingpage_model.dart';
 export 'settingpage_model.dart';
 
@@ -54,7 +56,7 @@ class _SettingpageWidgetState extends State<SettingpageWidget> {
             context.pop();
           },
         ),
-        actions: const [],
+        actions: [],
         centerTitle: false,
         elevation: 0.0,
       ),
@@ -63,7 +65,7 @@ class _SettingpageWidgetState extends State<SettingpageWidget> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Padding(
-            padding: const EdgeInsetsDirectional.fromSTEB(16.0, 0.0, 0.0, 0.0),
+            padding: EdgeInsetsDirectional.fromSTEB(16.0, 0.0, 0.0, 0.0),
             child: Text(
               FFLocalizations.of(context).getText(
                 'h70uo0cj' /* Settings Page */,
@@ -75,7 +77,7 @@ class _SettingpageWidgetState extends State<SettingpageWidget> {
             ),
           ),
           Padding(
-            padding: const EdgeInsetsDirectional.fromSTEB(16.0, 4.0, 0.0, 0.0),
+            padding: EdgeInsetsDirectional.fromSTEB(16.0, 4.0, 0.0, 0.0),
             child: Text(
               FFLocalizations.of(context).getText(
                 'mi6bo4ck' /* Please evaluate your options b... */,
@@ -92,12 +94,12 @@ class _SettingpageWidgetState extends State<SettingpageWidget> {
             scrollDirection: Axis.vertical,
             children: [
               Padding(
-                padding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 1.0),
+                padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 1.0),
                 child: Container(
                   width: double.infinity,
-                  decoration: const BoxDecoration(),
+                  decoration: BoxDecoration(),
                   child: Padding(
-                    padding: const EdgeInsets.all(16.0),
+                    padding: EdgeInsets.all(16.0),
                     child: Row(
                       mainAxisSize: MainAxisSize.max,
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -123,16 +125,16 @@ class _SettingpageWidgetState extends State<SettingpageWidget> {
                 ),
               ),
               Padding(
-                padding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 1.0),
+                padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 1.0),
                 child: Container(
                   width: double.infinity,
-                  decoration: const BoxDecoration(),
+                  decoration: BoxDecoration(),
                 ),
               ),
             ],
           ),
           Padding(
-            padding: const EdgeInsetsDirectional.fromSTEB(16.0, 12.0, 0.0, 0.0),
+            padding: EdgeInsetsDirectional.fromSTEB(16.0, 12.0, 0.0, 0.0),
             child: FFButtonWidget(
               onPressed: () async {
                 context.pushNamed('Login');
@@ -142,8 +144,8 @@ class _SettingpageWidgetState extends State<SettingpageWidget> {
               ),
               options: FFButtonOptions(
                 height: 40.0,
-                padding: const EdgeInsetsDirectional.fromSTEB(24.0, 0.0, 24.0, 0.0),
-                iconPadding: const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
+                padding: EdgeInsetsDirectional.fromSTEB(24.0, 0.0, 24.0, 0.0),
+                iconPadding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
                 color: FlutterFlowTheme.of(context).secondaryBackground,
                 textStyle: FlutterFlowTheme.of(context).labelMedium.override(
                       fontFamily: 'Manrope',
@@ -158,7 +160,7 @@ class _SettingpageWidgetState extends State<SettingpageWidget> {
               ),
             ),
           ),
-        ].addToEnd(const SizedBox(height: 64.0)),
+        ].addToEnd(SizedBox(height: 64.0)),
       ),
     );
   }
