@@ -107,247 +107,243 @@ Locale createLocale(String language) => language.contains('_')
 final kTranslationsMap = <Map<String, Map<String, String>>>[
   // HomePage
   {
-    'fbvat1ar': {
+    'n4gzugd0': {
       'fr': 'Home',
       'en': '',
     },
   },
-  // Login
+  // LoginPage
   {
-    'w321lyq6': {
-      'fr': '@Trap',
-      'en': '',
-    },
-    'jhqhmbi9': {
-      'fr': 'connexion',
-      'en': 'Log In',
-    },
-    '6t7d1wfh': {
-      'fr': 'Bon retour',
+    'qgqivinb': {
+      'fr': 'Bienvenu',
       'en': 'Welcome Back',
     },
-    'olia1d87': {
-      'fr': 'Remplissez les informations ci-dessous',
-      'en': 'Fill out the information below in order to access your account.',
+    'pj6s80wt': {
+      'fr': 'Remplir le formulaire ci-dessous.',
+      'en': 'Let\'s get started by filling out the form below.',
     },
-    'b1tskjih': {
+    '8oncxaly': {
       'fr': 'Email',
-      'en': '',
+      'en': 'Email',
     },
-    'h407hzqq': {
-      'fr': 'mot de passe',
-      'en': 'Password',
+    '2rju5f6o': {
+      'fr': 'Mot de passe',
+      'en': 'Email',
     },
-    'l5igptiy': {
-      'fr': 'Field is required',
-      'en': 'Field is required',
-    },
-    '95t2f286': {
-      'fr': 'Please choose an option from the dropdown',
-      'en': '',
-    },
-    'wsv0hwyj': {
+    'dfuyziqb': {
       'fr': 'Champs requis',
-      'en': 'Field is required',
+      'en': 'Required fields',
     },
-    'ltuh3xs0': {
+    '0uh35t85': {
+      'fr': 'Entrer un Email valide',
+      'en': 'Enter a valid Email',
+    },
+    'clocmcxh': {
       'fr': 'Please choose an option from the dropdown',
       'en': '',
     },
-    'exhhh0ih': {
-      'fr': ' Enregistre toi',
+    'pjzb7p2x': {
+      'fr': 'Field is required',
+      'en': '',
+    },
+    'innc46v1': {
+      'fr': 'Please choose an option from the dropdown',
+      'en': '',
+    },
+    'ejz5kdvw': {
+      'fr': 'Connexion',
       'en': 'Sign In',
     },
-    '6lgza26z': {
-      'fr': 'FlutterFlow',
-      'en': '',
+    '7r5oiw5v': {
+      'fr': 'Pas de compte? ',
+      'en': 'Don\'t have an account?  ',
     },
-    'zz48dhfe': {
-      'fr': ' - Build Different',
-      'en': '',
+    'aeok2mfs': {
+      'fr': 'Enregistrez-vous ici',
+      'en': ' Sign Up here',
     },
-    'w9qeahip': {
-      'fr': 'Home',
-      'en': '',
+    '3tszx79z': {
+      'fr': 'Page accueil',
+      'en': 'Home',
     },
   },
-  // Registerpage
+  // RegisterPage
   {
-    'j2b7ysku': {
-      'fr': 'Create Account',
-      'en': '',
-    },
-    'vjvmlkey': {
+    'zqrl7c4t': {
       'fr': 'Créer un compte',
-      'en': '',
+      'en': 'Create an account',
     },
-    'n1xhhrrv': {
-      'fr': 'Remplissez le formulaire ci-dessous',
-      'en': '',
+    'f33vhaoh': {
+      'fr': 'Remplir le formulaire ci-dessous.',
+      'en': 'Let\'s get started by filling out the form below.',
     },
-    'x0l6umog': {
+    'z7ddih75': {
       'fr': 'Email',
-      'en': '',
+      'en': 'Email',
     },
-    'wzci4gd3': {
-      'fr': 'Password',
-      'en': '',
+    'y7z4vm3q': {
+      'fr': 'Mot de passe',
+      'en': 'Email',
     },
-    'qcqdiw80': {
-      'fr': 'C\'est parti',
-      'en': 'Get Started',
+    '8clhzmyh': {
+      'fr': 'Champs requis',
+      'en': 'Required fields',
     },
-    'rbioj0le': {
-      'fr': 'FlutterFlow',
-      'en': '',
+    'j632pqt7': {
+      'fr': 'Entrer un Email valide',
+      'en': 'Enter a valid Email',
     },
-    'khqfzf79': {
-      'fr': ' - connecte toi',
-      'en': '',
-    },
-    'ytg73jzm': {
-      'fr': 'Champ requis',
-      'en': 'Required field',
-    },
-    'bppg2whz': {
+    'zrbvujj0': {
       'fr': 'Please choose an option from the dropdown',
       'en': '',
     },
-    'no14dghw': {
-      'fr': 'Champ requis',
-      'en': 'Required field',
+    '1y20i56s': {
+      'fr': 'Field is required',
+      'en': '',
     },
-    'mj21uu5v': {
+    'bjsbj6il': {
       'fr': 'Please choose an option from the dropdown',
       'en': '',
     },
-    'y4oqw8ph': {
-      'fr': 'Home',
-      'en': '',
+    '5nqekhs5': {
+      'fr': 'Créer un compte',
+      'en': 'Create an account',
+    },
+    'wgkfnw3j': {
+      'fr': 'Vous avez un compte?  ',
+      'en': 'Do you have an account?',
+    },
+    'giddn4tt': {
+      'fr': 'Se connecter',
+      'en': ' Sign Up here',
+    },
+    'exe35o7n': {
+      'fr': 'Page accueil',
+      'en': 'Home',
     },
   },
-  // settingpage
+  // settingPage
   {
-    'h70uo0cj': {
-      'fr': 'Settings Page',
-      'en': '',
+    'zrwnmotg': {
+      'fr': 'Paramétrage',
+      'en': 'Setting',
     },
-    'mi6bo4ck': {
+    'oru2sbq6': {
       'fr': 'Please evaluate your options below.',
       'en': '',
     },
-    'ondz3z2f': {
+    'v2a0opm8': {
       'fr': 'My Subscription',
       'en': '',
     },
-    '7cquqj7i': {
-      'fr': 'Déconnexion',
+    'octannun': {
+      'fr': 'Déconnecter',
       'en': 'Disconnect',
     },
-    'rt3hc6z2': {
+    'e7ks3dr5': {
       'fr': 'Home',
       'en': '',
     },
   },
   // Miscellaneous
   {
-    'b8h5savs': {
+    'jiyd1qsj': {
       'fr': '',
       'en': '',
     },
-    '8hxf976r': {
+    'b8bgvnfs': {
       'fr': '',
       'en': '',
     },
-    'xxnp4o5w': {
+    '3gf6h77j': {
       'fr': '',
       'en': '',
     },
-    '1250xdj6': {
+    'vfjkc9d7': {
       'fr': '',
       'en': '',
     },
-    'qzm6qep8': {
+    'mgyor9i8': {
       'fr': '',
       'en': '',
     },
-    'sf3qbb15': {
+    '5czlz6nt': {
       'fr': '',
       'en': '',
     },
-    'j0a0wmgn': {
+    't4wjd42b': {
       'fr': '',
       'en': '',
     },
-    'c1u1lakj': {
+    'fngtbarw': {
       'fr': '',
       'en': '',
     },
-    'ujis8bjt': {
+    'ap2g3mj4': {
       'fr': '',
       'en': '',
     },
-    'sn8yt67q': {
+    'k3w72hsl': {
       'fr': '',
       'en': '',
     },
-    '7iywf4uq': {
+    'jaw8eymo': {
       'fr': '',
       'en': '',
     },
-    'tz807w0s': {
+    '14jvho60': {
       'fr': '',
       'en': '',
     },
-    '46z11s3u': {
+    'wg0tqotb': {
       'fr': '',
       'en': '',
     },
-    'jigqgni0': {
+    'j72gyi7h': {
       'fr': '',
       'en': '',
     },
-    'rgtj42p4': {
+    '8ary7dbh': {
       'fr': '',
       'en': '',
     },
-    'mqc93srj': {
+    'yq3k8q3l': {
       'fr': '',
       'en': '',
     },
-    'pqxp0exr': {
+    'q62cjtc6': {
       'fr': '',
       'en': '',
     },
-    'kuubdpq9': {
+    '2gpfd8h2': {
       'fr': '',
       'en': '',
     },
-    'jnvjkhku': {
+    'swet4ai8': {
       'fr': '',
       'en': '',
     },
-    'zbw3oksq': {
+    'vnji0evy': {
       'fr': '',
       'en': '',
     },
-    'gkzkwd4p': {
+    'pfjl30zv': {
       'fr': '',
       'en': '',
     },
-    '02ehlso4': {
+    'v105y5bh': {
       'fr': '',
       'en': '',
     },
-    'xlbqkea3': {
+    'x1x27dtm': {
       'fr': '',
       'en': '',
     },
-    'i0a1yue7': {
+    'z3ro0yyf': {
       'fr': '',
       'en': '',
     },
-    '13soy3f6': {
+    'h7r8a2fj': {
       'fr': '',
       'en': '',
     },

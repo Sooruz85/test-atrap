@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "190585891393",
-    "project_id": "atrap-c8027",
-    "storage_bucket": "atrap-c8027.appspot.com"
+    "project_number": "601148374900",
+    "project_id": "atrap-e2d3b",
+    "storage_bucket": "atrap-e2d3b.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:190585891393:android:52ce2b8d2e76aa3b0774c0",
+        "mobilesdk_app_id": "1:601148374900:android:4d6dcecdb0312c1912b621",
         "android_client_info": {
           "package_name": "com.mycompany.atrap"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAiFvqZceHguj7pWwpADF8oSZ4SndugAiw"
+          "current_key": "AIzaSyAGht8tE8PhrIAEB0aWc_JUjYISiHFtDoo"
         }
       ],
       "services": {

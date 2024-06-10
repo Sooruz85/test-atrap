@@ -5,9 +5,10 @@ import '../base_auth_user_provider.dart';
 
 export '../base_auth_user_provider.dart';
 
-class ATrapFirebaseUser extends BaseAuthUser {
-  ATrapFirebaseUser(this.user);
+class AtrapFirebaseUser extends BaseAuthUser {
+  AtrapFirebaseUser(this.user);
   User? user;
+  @override
   bool get loggedIn => user != null;
 
   @override
@@ -53,17 +54,17 @@ class ATrapFirebaseUser extends BaseAuthUser {
 
   static BaseAuthUser fromUserCredential(UserCredential userCredential) =>
       fromFirebaseUser(userCredential.user);
-  static BaseAuthUser fromFirebaseUser(User? user) => ATrapFirebaseUser(user);
+  static BaseAuthUser fromFirebaseUser(User? user) => AtrapFirebaseUser(user);
 }
 
-Stream<BaseAuthUser> aTrapFirebaseUserStream() => FirebaseAuth.instance
+Stream<BaseAuthUser> atrapFirebaseUserStream() => FirebaseAuth.instance
         .authStateChanges()
         .debounce((user) => user == null && !loggedIn
             ? TimerStream(true, const Duration(seconds: 1))
             : Stream.value(user))
         .map<BaseAuthUser>(
       (user) {
-        currentUser = ATrapFirebaseUser(user);
+        currentUser = AtrapFirebaseUser(user);
         return currentUser!;
       },
     );

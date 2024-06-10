@@ -1,4 +1,4 @@
-# aTrap
+# Atrap
 
 A new Flutter project.
 
