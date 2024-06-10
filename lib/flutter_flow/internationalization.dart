@@ -162,7 +162,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'fr': 'Enregistrez-vous ici',
       'en': ' Sign Up here',
     },
-    '3tszx79z': {
+    '4qn0nexo': {
       'fr': 'Page accueil',
       'en': 'Home',
     },
@@ -233,8 +233,8 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': '',
     },
     'v2a0opm8': {
-      'fr': 'My Subscription',
-      'en': '',
+      'fr': 'Supprimer mon compte',
+      'en': 'Delete my account',
     },
     'octannun': {
       'fr': 'Déconnecter',
@@ -245,8 +245,80 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'en': '',
     },
   },
+  // forgotpassword
+  {
+    'fiyh34h5': {
+      'fr': 'Back',
+      'en': '',
+    },
+    '1b5eqd8y': {
+      'fr': 'Mot de passe oublié',
+      'en': 'Forgot your password',
+    },
+    'nup0uscd': {
+      'fr':
+          'Nous vous enverrons un e-mail avec un lien pour réinitialiser votre mot de passe, veuillez saisir l\'e-mail associé à votre compte ci-dessous.',
+      'en':
+          'We will send you an email with a link to reset your password, please enter the email associated with your account below.',
+    },
+    'ti04hsd7': {
+      'fr': 'Your email address...',
+      'en': '',
+    },
+    'o4luyu01': {
+      'fr': 'Enter your email...',
+      'en': '',
+    },
+    '9aes93ey': {
+      'fr': 'Champ requis',
+      'en': '',
+    },
+    'h76v7zot': {
+      'fr': 'Please choose an option from the dropdown',
+      'en': '',
+    },
+    '2wxjk6zo': {
+      'fr': 'Send Link',
+      'en': '',
+    },
+    '254g5o5c': {
+      'fr': 'Home',
+      'en': '',
+    },
+  },
+  // addprofiles
+  {
+    '75c9q42j': {
+      'fr': 'Username',
+      'en': '',
+    },
+    '42o38q5p': {
+      'fr': 'Bio',
+      'en': '',
+    },
+    'rq1tpp3r': {
+      'fr': 'Créer',
+      'en': 'Create',
+    },
+    '374s76hx': {
+      'fr': 'Create profile',
+      'en': '',
+    },
+    'mnzzvd29': {
+      'fr': 'Home',
+      'en': '',
+    },
+  },
   // Miscellaneous
   {
+    '3tszx79z': {
+      'fr': 'Page accueil',
+      'en': 'Home',
+    },
+    'ygiu3bkj': {
+      'fr': 'Page accueil',
+      'en': 'Home',
+    },
     'jiyd1qsj': {
       'fr': '',
       'en': '',

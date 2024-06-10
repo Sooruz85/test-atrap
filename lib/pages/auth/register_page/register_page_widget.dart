@@ -375,9 +375,21 @@ class _RegisterPageWidgetState extends State<RegisterPageWidget> {
                                         return;
                                       }
                                       GoRouter.of(context).prepareAuthEvent();
+                                      if (_model.passwordTextController.text !=
+                                          _model.passwordTextController.text) {
+                                        ScaffoldMessenger.of(context)
+                                            .showSnackBar(
+                                          const SnackBar(
+                                            content: Text(
+                                              'Passwords don\'t match!',
+                                            ),
+                                          ),
+                                        );
+                                        return;
+                                      }
 
-                                      final user =
-                                          await authManager.signInWithEmail(
+                                      final user = await authManager
+                                          .createAccountWithEmail(
                                         context,
                                         _model.emailAddressTextController.text,
                                         _model.passwordTextController.text,

@@ -99,26 +99,74 @@ class _SettingPageWidgetState extends State<SettingPageWidget> {
                   decoration: const BoxDecoration(),
                   child: Padding(
                     padding: const EdgeInsets.all(16.0),
-                    child: Row(
-                      mainAxisSize: MainAxisSize.max,
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Text(
-                          FFLocalizations.of(context).getText(
-                            'v2a0opm8' /* My Subscription */,
+                    child: InkWell(
+                      splashColor: Colors.transparent,
+                      focusColor: Colors.transparent,
+                      hoverColor: Colors.transparent,
+                      highlightColor: Colors.transparent,
+                      onTap: () async {
+                        navigate() {}
+                        var confirmDialogResponse = await showDialog<bool>(
+                              context: context,
+                              builder: (alertDialogContext) {
+                                return AlertDialog(
+                                  title: const Text('Supprimer mon compte'),
+                                  content: Text(valueOrDefault<String>(
+                                    FFLocalizations.of(context).getVariableText(
+                                      frText:
+                                          'En cliquant sur \"Confirmer\", vous acceptez que votre compte soit supprimé.',
+                                      enText: '',
+                                    ),
+                                    'By clicking \"Confirm,\" you agree that your account will be deleted.',
+                                  )),
+                                  actions: [
+                                    TextButton(
+                                      onPressed: () => Navigator.pop(
+                                          alertDialogContext, false),
+                                      child: Text(FFLocalizations.of(context)
+                                          .getVariableText(
+                                        frText: 'Annuler',
+                                        enText: 'Cancel',
+                                      )),
+                                    ),
+                                    TextButton(
+                                      onPressed: () => Navigator.pop(
+                                          alertDialogContext, true),
+                                      child: Text(FFLocalizations.of(context)
+                                          .getVariableText(
+                                        frText: 'Confirmer',
+                                        enText: 'Confirm',
+                                      )),
+                                    ),
+                                  ],
+                                );
+                              },
+                            ) ??
+                            false;
+                        if (confirmDialogResponse) {
+                          await authManager.deleteUser(context);
+                        }
+
+                        navigate();
+                      },
+                      child: Row(
+                        mainAxisSize: MainAxisSize.max,
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Text(
+                            FFLocalizations.of(context).getText(
+                              'v2a0opm8' /* Supprimer mon compte */,
+                            ),
+                            style: FlutterFlowTheme.of(context)
+                                .titleLarge
+                                .override(
+                                  fontFamily: 'Outfit',
+                                  color: const Color(0xFFF50E0E),
+                                  letterSpacing: 0.0,
+                                ),
                           ),
-                          style:
-                              FlutterFlowTheme.of(context).titleLarge.override(
-                                    fontFamily: 'Outfit',
-                                    letterSpacing: 0.0,
-                                  ),
-                        ),
-                        Icon(
-                          Icons.chevron_right_rounded,
-                          color: FlutterFlowTheme.of(context).secondaryText,
-                          size: 24.0,
-                        ),
-                      ],
+                        ],
+                      ),
                     ),
                   ),
                 ),
